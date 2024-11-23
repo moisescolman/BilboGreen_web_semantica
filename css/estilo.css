@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Outfit1;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+@font-face {
+    font-family: 'Outfit1';
+    src: url("../fonts/Outfit-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Outfit2';
+    src: url("../fonts/Outfit-SemiBold.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+:root {
+    --verdeclaro: #86bc30;
+    --verdefuerte: #19831f;
+    --amarilloclaro: #fbffda;
+    --verdeoscuro: #033d00;
+    --negro: #4a4844;
+    --textogris: #938f9a;
+    --blanco: white;
+  }
+  
+body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: var(--blanco);
+    min-height: 1rem;
+    /* border: red solid 2px; */
+}
+.logoNav {
+    /* border: red solid 2px; */
+    width: 20%;
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.logoNav img {
+    width: 17rem;
+    transition: 0.4s;
+    /* border: yellow solid 1px; */
+}
+.logoNav img:hover {
+    width: 17.5rem;
+    /* border: yellow solid 1px; */
+}
+
+.menuNav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    /* border: green solid 2px; */
+    min-height: 5rem;
+}
+
+.menuNav ul li {
+    /* border: orange solid 2px; */
+    min-height: 2rem;
+    align-items: center;
+    display: inline;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    width: 5rem;
+}
+.menuNav a {
+
+    align-items: center;
+    /* border: blue solid 1px; */
+    color: var(--negro);
+    transition: 0.3s;
+}
+.menuNav a:hover {
+    color: var(--verdeclaro);
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 40rem;
+    /* border: orange solid 2px; */
+    background-image: url(/img/Header_img.jpg);
+    object-fit: cover top;
+    object-position: top left;
+}
+h1{
+    font-family: Outfit2;
+    color: var(--verdeclaro);
+    font-size: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+h2{
+    font-family: Outfit2;
+    color: var(--verdeclaro);
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+h3 {
+    font-family: Outfit2;
+    color: var(--negro);
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    color: var(--textogris);
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+header div {
+    display: flex;
+    padding: 1rem;
+    align-self: center;
+    align-items: center;
+    min-height: 10rem;
+    text-align: center;
+    background-color: var(--blanco);
+}
+
+main {
+    background-color: var(--amarilloclaro);
+    width: 100%;
+    min-height: 100rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 30rem;
+    width: 90%;
+    background-color: var(--amarilloclaro);
+    /* border: orange solid 2px; */
+}
+.textoSeccion {
+    width: 50%;
+    min-height: 20rem;
+    /* border: purple 1px solid; */
+}
+.imgSeccion {
+    width: 50%;
+    /* border: salmon 1px solid; */
+    min-height: 20rem;
+}
+.imgSeccion img{
+    height: 7rem;
+    /* border: salmon 1px solid; */
+    min-height: 20rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 15rem;
+    background-color: var(--verdefuerte);
+}
+footer a, footer p{
+    color: var(--amarilloclaro);
+    text-justify: center;
+
+}
+.footerLogo img {
+    width:15rem;
+
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    width: 30%;
+    border: red solid 1px;
+    min-height: 10rem;
+}
+.footerNav {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 30%;
+    border: red solid 1px;
+    min-height: 10rem;
+}
+.footerRRSS {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 30%;
+    border: red solid 1px;
+    min-height: 10rem;
+}
+.footerRights {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: red solid 1px;
+    min-height: 2rem;
+}
