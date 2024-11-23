@@ -101,7 +101,7 @@ header {
     flex-wrap: wrap;
     min-height: 40rem;
     /* border: orange solid 2px; */
-    background-image: url(/img/Header_img.jpg);
+    background-image: url(./img/Header_img.jpg);
     object-fit: cover top;
     object-position: top left;
 }
