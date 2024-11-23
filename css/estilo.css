@@ -101,9 +101,20 @@ header {
     flex-wrap: wrap;
     min-height: 40rem;
     /* border: orange solid 2px; */
-    background-image: url('./img/Header_img.jpg');
-    object-fit: cover top;
-    object-position: top left;
+}
+header img {
+    min-height: 30rem;
+}
+header div {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    padding: 1rem;
+    align-self: center;
+    align-items: center;
+    min-height: 10rem;
+    text-align: center;
+    background-color: var(--blanco);
 }
 h1{
     font-family: Outfit2;
@@ -130,15 +141,6 @@ p {
     line-height: 1.5rem;
     padding-bottom: 1rem;
     text-align: justify;
-}
-header div {
-    display: flex;
-    padding: 1rem;
-    align-self: center;
-    align-items: center;
-    min-height: 10rem;
-    text-align: center;
-    background-color: var(--blanco);
 }
 
 main {
@@ -202,7 +204,7 @@ footer a, footer p{
     justify-content: end;
     align-items: start;
     width: 30%;
-    border: red solid 1px;
+    /* border: red solid 1px; */
     min-height: 10rem;
 }
 .footerNav {
@@ -210,7 +212,7 @@ footer a, footer p{
     justify-content: center;
     align-items: start;
     width: 30%;
-    border: red solid 1px;
+    /* border: red solid 1px; */
     min-height: 10rem;
 }
 .footerRRSS {
@@ -218,7 +220,7 @@ footer a, footer p{
     justify-content: start;
     align-items: end;
     width: 30%;
-    border: red solid 1px;
+    /* border: red solid 1px; */
     min-height: 10rem;
 }
 .footerRights {
@@ -227,6 +229,6 @@ footer a, footer p{
     justify-content: center;
     align-items: center;
     width: 90%;
-    border: red solid 1px;
+    /* border: red solid 1px; */
     min-height: 2rem;
 }
