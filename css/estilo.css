@@ -96,7 +96,7 @@ nav {
 .menuNav a:hover {
     color: var(--verdeclaro);
 }
-header {
+.header-index {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -106,9 +106,19 @@ header {
     
     /* border: orange solid 2px; */
 }
-header img {
+.header-index img {
     width: 100%;
-    min-height: 30rem;
+    min-height: 25rem;
+}
+.header-paginas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 25rem;
+    background-color: var(--verdeoscuro);
+    
+    /* border: orange solid 2px; */
 }
 .div-Saludo {
     position: absolute;
@@ -120,8 +130,22 @@ header img {
     align-items: center;
     min-height: 7rem;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.712);
-    backdrop-filter: blur(1rem);
+    background-color:rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(0.2rem);
+    border-radius: 0.6rem;
+}
+.div-Saludo-paginas {
+    position: absolute;
+    top: 12rem;
+    z-index: 5;
+    display: flex;
+    padding: 1rem;
+    /* align-self: center; */
+    align-items: center;
+    min-height: 7rem;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(0.2rem);
     border-radius: 0.6rem;
 }
 .tarjetas-paginas {
@@ -213,10 +237,16 @@ section {
 .section-verde {
     background-color: var(--verdeclaro);
     
+    
 }
-.section-verde p, .section-verde h2 {
+.section-verde p, .section-verde h2, .section-verde ul li {
     color: var(--amarilloclaro);
     
+}
+.section-verde ul li {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
 }
 .textoSeccion {
     width: 50%;
