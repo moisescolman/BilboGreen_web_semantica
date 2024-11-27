@@ -204,6 +204,13 @@ h3 {
     font-size: 1.5rem;
     padding-bottom: 1rem;
 }
+h4 {
+    text-align: center;
+    font-family: Outfit2;
+    color: var(--negro);
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
 
 p {
     color: var(--textogris);
@@ -236,8 +243,11 @@ section {
 }
 .section-verde {
     background-color: var(--verdeclaro);
-    
-    
+}
+.section-verde-wide {
+    background-color: var(--verdeclaro);
+    display: flex;
+    flex-wrap: wrap;
 }
 .section-verde p, .section-verde h2, .section-verde ul li {
     color: var(--amarilloclaro);
@@ -249,9 +259,74 @@ section {
     padding-bottom: 1rem;
 }
 .textoSeccion {
+    padding-top: 1rem;
     width: 50%;
     min-height: 20rem;
     /* border: purple 1px solid; */
+}
+.textoSeccion-Wide {
+    padding-top: 1rem;
+    width: 80%;
+    min-height: 15rem;
+    /* border: purple 1px solid; */
+}
+.textoSeccion-Wide h2, .textoSeccion-Wide p {
+    color: var(--amarilloclaro);
+    width: 100%;
+    text-align: center;
+}
+.textoSeccion-Wide h3{
+    text-align: center;
+}
+
+.tarjetas-residuos{
+    /* border: red solid 2px; */
+    width: 25%;
+    min-height: 24rem;
+    border-radius: 0.6rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--amarilloclaro);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.tarjetas-residuos img  {
+    width: 50%;
+    border-radius: 0.6rem;
+}
+.bor-amarillo {
+    border: #fbff05 solid 1rem;
+}
+.bor-azul {
+    border: #055dff solid 1rem;
+}
+.bor-verde {
+    border: #009b00 solid 1rem;
+}
+.bor-marron {
+    border: #633204 solid 1rem;
+}
+.bor-gris {
+    border: #9c9c9c solid 1rem;
+}
+.bor-naranja {
+    border: #ff8800 solid 1rem;
+}
+.bor-lila {
+    border: #8700c5 solid 1rem;
+}
+.tarjetas-residuos h3 {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+.tarjetas-residuos ul {
+    padding-bottom: 1rem;
+    /* border: red solid 1px; */
+    width: 90%;
+    align-self: flex-start;
+    color: var(--negro);
 }
 .imgSeccion {
     display: flex;
