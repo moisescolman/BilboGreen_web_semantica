@@ -227,6 +227,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: start;
 }
 section {
     display: flex;
@@ -240,6 +241,10 @@ section {
     padding-right: 10%;
     background-color: var(--amarilloclaro);
     /* border: orange solid 2px; */
+}
+.section-noticias {
+    flex-wrap: wrap;
+    padding-top: 2rem;
 }
 .section-verde {
     background-color: var(--verdeclaro);
@@ -277,6 +282,46 @@ section {
 }
 .textoSeccion-Wide h3{
     text-align: center;
+}
+article {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* border: red solid 2px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 25rem;
+    background-color: var(--blanco);
+    border-radius: 0.6rem;
+    /* gap: 1rem; */
+    border: var(--textoclaro) 0.2rem solid;
+    margin-bottom: 2rem;
+}
+article>div {
+    min-height: 20rem;
+}
+.texto-noticias {
+    width: 55%;
+}
+.texto-noticias h2 {
+    width: 100%;
+    font-size: 1.8rem;
+}
+.img-noticias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: red solid 2px; */
+    align-self: center;
+    width: 40%;
+}
+.img-noticias img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 0.6rem;
 }
 
 .tarjetas-residuos{
