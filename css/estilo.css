@@ -223,7 +223,7 @@ p {
 main {
     background-color: var(--amarilloclaro);
     width: 100%;
-    min-height: 100rem;
+    /* min-height: 100rem; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
