@@ -120,6 +120,10 @@ nav {
     
     /* border: orange solid 2px; */
 }
+.header-paginas img {
+    width: 100%;
+    min-height: 25rem;
+}
 .div-Saludo {
     position: absolute;
     top: 20rem;
@@ -223,6 +227,7 @@ p {
 main {
     background-color: var(--amarilloclaro);
     width: 100%;
+    /* border: red solid 1px; */
     /* min-height: 100rem; */
     display: flex;
     flex-wrap: wrap;
@@ -426,12 +431,46 @@ button:hover{
     width: 50%;
     /* border: salmon 1px solid; */
     min-height: 30rem;
+
 }
 .imgSeccion img{
     height: 30rem;
     border-radius: 0.6rem;
     /* border: salmon 1px solid; */
-    /* min-height: 15rem; */
+    min-height: 15rem;
+    object-fit: cover;
+}
+form {
+    /* border: red solid 2px; */
+    width: 100%;
+    min-height: 32rem;
+    margin-bottom: 1rem;
+}
+label {
+    color: var(--textogris);
+    line-height: 1.7rem;
+    padding-bottom: 1.2rem;
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+input, textarea {
+    width: 95%;
+    border-radius: 0.6rem;
+    border: var(--textoclaro) solid 0.1rem;
+    min-height: 2rem;
+    text-indent: 0.5rem;
+    color: var(--negro);
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+textarea {
+    text-indent: 0;
+    width: 92%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 footer {
